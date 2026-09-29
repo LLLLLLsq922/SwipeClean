@@ -1,0 +1,15 @@
+{
+  "name": "SwipeClean.Tests.EditMode",
+  "rootNamespace": "SwipeClean.Tests.EditMode",
+  "references": [
+    "SwipeClean.Domain",
+    "SwipeClean.Application",
+    "SwipeClean.Input",
+    "SwipeClean.Cleaning",
+    "SwipeClean.Levels",
+    "SwipeClean.Editor"
+  ],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": false
+}

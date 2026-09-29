@@ -1,0 +1,17 @@
+{
+  "name": "SwipeClean.Editor",
+  "rootNamespace": "SwipeClean.Editor",
+  "references": [
+    "SwipeClean.Domain",
+    "SwipeClean.Application",
+    "SwipeClean.Core",
+    "SwipeClean.Input",
+    "SwipeClean.Cleaning",
+    "SwipeClean.Levels",
+    "SwipeClean.UI",
+    "Unity.RenderPipelines.Universal.Runtime"
+  ],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}
+

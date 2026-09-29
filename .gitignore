@@ -1,0 +1,50 @@
+# Unity generated folders
+/[Ll]ibrary/
+/[Tt]emp/
+/.utmp/
+[Oo]bj/
+[Bb]in/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/[Tt]est[Rr]esults/
+
+# IDE generated files
+.vs/
+.vscode/
+.idea/
+/*.csproj
+/*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity/OS generated files
+sysinfo.txt
+crashlytics-build.properties
+*.apk
+*.aab
+*.unitypackage
+*.xcworkspace
+.DS_Store
+Thumbs.db
+
+# Local credentials and signing material
+*.keystore
+*.jks
+*.p12
+*.mobileprovision
+local.properties
+
+# Local workaround residue from first Package Manager bootstrap
+Packages/com.unity.package-manager.metadata-6000.3/

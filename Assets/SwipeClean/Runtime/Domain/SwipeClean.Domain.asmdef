@@ -1,0 +1,7 @@
+{
+  "name": "SwipeClean.Domain",
+  "rootNamespace": "SwipeClean.Domain",
+  "autoReferenced": true,
+  "noEngineReferences": true
+}
+

@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>9.0</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <UnityEditorRoot Condition="'$(UnityEditorRoot)' == ''">D:\Unity\Hub\Editor\6000.3.23f1</UnityEditorRoot>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Assets\SwipeClean\Runtime\Domain\*.cs" />
+    <Compile Include="..\..\Assets\SwipeClean\Runtime\Application\*.cs" />
+    <Compile Include="..\..\Assets\SwipeClean\Runtime\Levels\*.cs" />
+    <Compile Include="..\..\Assets\SwipeClean\Runtime\Core\*.cs" />
+    <Compile Include="..\..\Assets\SwipeClean\Runtime\Input\*.cs"
+             Exclude="..\..\Assets\SwipeClean\Runtime\Input\GameplayInputDriver.cs" />
+    <Compile Include="..\..\Assets\SwipeClean\Runtime\Cleaning\*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>$(UnityEditorRoot)\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(UnityEditorRoot)\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
+

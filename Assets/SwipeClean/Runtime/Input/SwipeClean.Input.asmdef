@@ -1,0 +1,11 @@
+{
+  "name": "SwipeClean.Input",
+  "rootNamespace": "SwipeClean.Input",
+  "references": [
+    "SwipeClean.Application",
+    "SwipeClean.Domain",
+    "Unity.InputSystem"
+  ],
+  "autoReferenced": true
+}
+

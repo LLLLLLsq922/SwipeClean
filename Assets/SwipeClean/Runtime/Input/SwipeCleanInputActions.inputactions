@@ -1,0 +1,163 @@
+{
+  "name": "SwipeCleanInputActions",
+  "maps": [
+    {
+      "name": "Frontend",
+      "id": "7218d739-67c8-46b5-a7e6-a4fd7dfccb13",
+      "actions": [
+        {
+          "name": "Point",
+          "type": "PassThrough",
+          "id": "f37e9172-a61b-494a-adf8-67a155bdd0ee",
+          "expectedControlType": "Vector2",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": true
+        },
+        {
+          "name": "Submit",
+          "type": "Button",
+          "id": "20ee1595-e30b-4935-b10b-4d8486192144",
+          "expectedControlType": "Button",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": false
+        },
+        {
+          "name": "Cancel",
+          "type": "Button",
+          "id": "a6fda770-fe70-4b00-aede-d4940f7b93e5",
+          "expectedControlType": "Button",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": false
+        }
+      ],
+      "bindings": [
+        {
+          "name": "",
+          "id": "851ead85-101c-42b2-867f-755c5988bc69",
+          "path": "<Pointer>/position",
+          "interactions": "",
+          "processors": "",
+          "groups": "",
+          "action": "Point",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "5f4e539d-114d-49b6-a419-50b063170c9b",
+          "path": "<Keyboard>/enter",
+          "interactions": "",
+          "processors": "",
+          "groups": "",
+          "action": "Submit",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "99960be7-59de-4c9d-b30a-a32fb61b27cd",
+          "path": "<Keyboard>/escape",
+          "interactions": "",
+          "processors": "",
+          "groups": "",
+          "action": "Cancel",
+          "isComposite": false,
+          "isPartOfComposite": false
+        }
+      ]
+    },
+    {
+      "name": "Gameplay",
+      "id": "6ff180a4-793f-4277-ab33-a4c598d33bd8",
+      "actions": [
+        {
+          "name": "Point",
+          "type": "PassThrough",
+          "id": "7d789851-fc82-498a-8e05-f7c8167fba11",
+          "expectedControlType": "Vector2",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": true
+        },
+        {
+          "name": "PrimaryContact",
+          "type": "PassThrough",
+          "id": "a00c492b-579b-42c9-b273-eb082b0851fa",
+          "expectedControlType": "Button",
+          "processors": "",
+          "interactions": "Press",
+          "initialStateCheck": false
+        },
+        {
+          "name": "Pause",
+          "type": "Button",
+          "id": "214b235d-2744-4469-9955-3f3c94261580",
+          "expectedControlType": "Button",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": false
+        },
+        {
+          "name": "DebugToggle",
+          "type": "Button",
+          "id": "245fb5fa-b87e-4ced-8917-7b2fb879a88a",
+          "expectedControlType": "Button",
+          "processors": "",
+          "interactions": "",
+          "initialStateCheck": false
+        }
+      ],
+      "bindings": [
+        {
+          "name": "",
+          "id": "de281f75-16af-437a-8e31-4a70a8ec46cf",
+          "path": "<Pointer>/position",
+          "interactions": "",
+          "processors": "",
+          "groups": "",
+          "action": "Point",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "80ab2b81-1329-4c88-b27d-65e954cd6c30",
+          "path": "<Pointer>/press",
+          "interactions": "",
+          "processors": "",
+          "groups": "",
+          "action": "PrimaryContact",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "726a54ca-071c-41e5-b11a-b6582022e0fd",
+          "path": "<Keyboard>/escape",
+          "interactions": "",
+          "processors": "",
+          "groups": "",
+          "action": "Pause",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "3c919b2a-b8b4-41f1-a841-f24883241fb2",
+          "path": "<Keyboard>/f3",
+          "interactions": "",
+          "processors": "",
+          "groups": "",
+          "action": "DebugToggle",
+          "isComposite": false,
+          "isPartOfComposite": false
+        }
+      ]
+    }
+  ],
+  "controlSchemes": []
+}
+

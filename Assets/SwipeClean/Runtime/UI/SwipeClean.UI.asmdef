@@ -1,0 +1,16 @@
+{
+  "name": "SwipeClean.UI",
+  "rootNamespace": "SwipeClean.UI",
+  "references": [
+    "SwipeClean.Application",
+    "SwipeClean.Domain",
+    "SwipeClean.Core",
+    "SwipeClean.Input",
+    "SwipeClean.Cleaning",
+    "SwipeClean.Levels",
+    "Unity.InputSystem",
+    "Unity.ugui"
+  ],
+  "autoReferenced": true
+}
+

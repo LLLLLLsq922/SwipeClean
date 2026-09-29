@@ -1,0 +1,10 @@
+{
+  "name": "SwipeClean.Application",
+  "rootNamespace": "SwipeClean.Application",
+  "references": [
+    "SwipeClean.Domain"
+  ],
+  "autoReferenced": true,
+  "noEngineReferences": true
+}
+

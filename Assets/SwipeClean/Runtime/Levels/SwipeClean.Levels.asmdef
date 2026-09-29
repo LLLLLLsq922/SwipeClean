@@ -1,0 +1,11 @@
+{
+  "name": "SwipeClean.Levels",
+  "rootNamespace": "SwipeClean.Levels",
+  "references": [
+    "SwipeClean.Application",
+    "SwipeClean.Domain"
+  ],
+  "autoReferenced": true,
+  "noEngineReferences": true
+}
+
