@@ -37,3 +37,9 @@ $unity = 'D:\Unity\Hub\Editor\6000.3.23f1\Editor\Unity.exe'
 
 - `SwipeClean_MVP_完整需求分解.md`
 - `SwipeClean_MVP_详细设计与开发规格.md`
+
+污渍系统（干/湿双相态、14 子类、64 种物质）的专项文档：
+
+- [Documentation/污渍系统需求文档.md](Documentation/污渍系统需求文档.md)：术语、范围、64 种物质需求、83 条 `REQ-STAIN-###` 与 20 条非功能需求。
+- [Documentation/污渍系统可行性分析文档.md](Documentation/污渍系统可行性分析文档.md)：基于 M1 真实代码的能力盘点、性能/内存/跨平台评估、16 条 `RISK-STAIN-###` 与验证计划。
+- [Documentation/污渍系统设计文档.md](Documentation/污渍系统设计文档.md)：分类与数据模型、64 张物质卡、相变状态机、效果矩阵、Shader 通道与 Pass 改造、12 关编排、迁移路线。

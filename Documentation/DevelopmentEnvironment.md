@@ -36,6 +36,18 @@ Android 工具链应位于 `Editor/Data/PlaybackEngines/AndroidPlayer` 下。项
 - 不提交 `Library`、`Temp`、`Logs`、构建产物、签名材料或本机路径。
 - 业务代码位于 `Assets/SwipeClean`；第三方内容必须位于 `Assets/ThirdParty/<Vendor>` 并附许可证说明。
 
+## 设计文档索引
+
+| 文档 | 内容 | 对应里程碑 |
+|---|---|---|
+| [DevelopmentEnvironment.md](DevelopmentEnvironment.md) | 工具链锁定、初始化流程、本地验证顺序 | 全阶段 |
+| [DevelopmentStatus.md](DevelopmentStatus.md) | M0/M1 完成项与验证结果、下一阶段 | 全阶段 |
+| [污渍系统需求文档.md](污渍系统需求文档.md) | 干/湿双相态与 14 子类定义、64 种物质需求、83 条 `REQ-STAIN-###`、20 条非功能需求 | M2 输入 |
+| [污渍系统可行性分析文档.md](污渍系统可行性分析文档.md) | M1 代码能力盘点、技术/性能/内存/跨平台可行性、16 条 `RISK-STAIN-###`、验证计划 | M2 决策 |
+| [污渍系统设计文档.md](污渍系统设计文档.md) | 分类与数据模型、64 张物质卡、相变状态机、效果矩阵与降维、Shader 通道/Pass 改造、12 关编排、10 步迁移路线 | M2/M3 实施 |
+
+三份污渍文档的章节交叉引用约定：需求文档 §1~§12、可行性分析文档 §1~§11、设计文档 §1~§15 + 附录 A/B/C（附录 C 为分册自检与勘误记录）。
+
 ## 本地验证
 
 最低验证顺序：
