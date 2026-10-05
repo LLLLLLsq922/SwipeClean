@@ -43,3 +43,9 @@ $unity = 'D:\Unity\Hub\Editor\6000.3.23f1\Editor\Unity.exe'
 - [Documentation/污渍系统需求文档.md](Documentation/污渍系统需求文档.md)：术语、范围、64 种物质需求、83 条 `REQ-STAIN-###` 与 20 条非功能需求。
 - [Documentation/污渍系统可行性分析文档.md](Documentation/污渍系统可行性分析文档.md)：基于 M1 真实代码的能力盘点、性能/内存/跨平台评估、16 条 `RISK-STAIN-###` 与验证计划。
 - [Documentation/污渍系统设计文档.md](Documentation/污渍系统设计文档.md)：分类与数据模型、64 张物质卡、相变状态机、效果矩阵、Shader 通道与 Pass 改造、12 关编排、迁移路线。
+
+清洁用品系统（12 工具类、10 擦拭材质、9 档喷雾、37 项用品）的专项文档：
+
+- [Documentation/清洁用品需求文档.md](Documentation/清洁用品需求文档.md)：术语、范围、10 种擦拭材质与辅助用品需求、108 条 `REQ-TOOL-###` 与 31 条非功能需求。
+- [Documentation/清洁用品可行性分析文档.md](Documentation/清洁用品可行性分析文档.md)：M1 代码能力盘点、性能/内存/跨平台评估、22 条 `RISK-TOOL-###` 与验证计划。
+- [Documentation/清洁用品设计文档.md](Documentation/清洁用品设计文档.md)：数据模型、37 张用品卡、37×14 适配矩阵、工具状态与切换状态机、输入交互、12 关投放、迁移路线，以及跨文档勘误（附录 D）。
